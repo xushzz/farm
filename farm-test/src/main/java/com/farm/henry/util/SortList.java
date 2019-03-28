@@ -8,7 +8,7 @@ import java.util.List;
 
 public class SortList<E> {
 	@SuppressWarnings("unchecked")
-	public void Sort(List<E> list,final String method,final String sort){
+	public void sort(List<E> list,final String method,final String sort){
 		Collections.sort(list, new Comparator() {
 			public int compare(Object a, Object b) {
                 int ret = 0;
