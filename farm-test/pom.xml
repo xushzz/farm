@@ -21,5 +21,16 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+    	<groupId>com.sirap</groupId>
+      	<artifactId>sirap-basic</artifactId>
+      	<version>3.5-SNAPSHOT</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+	<dependency>
+	    <groupId>com.google.guava</groupId>
+	    <artifactId>guava</artifactId>
+	    <version>10.0.1</version>
+	</dependency>
   </dependencies>
 </project>

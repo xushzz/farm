@@ -88,7 +88,7 @@ public class ListTest {
         stu.setScore(100);
         students.add(stu);
         SortList<Student> sortList = new SortList<Student>();  
-        sortList.Sort(students, "getAge", "desc");  
+        sortList.sort(students, "getAge", "desc");  
         System.out.println(students);
         
     }
