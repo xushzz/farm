@@ -23,7 +23,7 @@ public class TestStrUtil {
 		if (StrUtil.containsNoneOfDigit("xush")) {
 			System.out.println("true");
 		} else {
-			System.out.println("false");
+			System.out.println("false");			
 		}
 	}
 
