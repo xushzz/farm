@@ -1,5 +1,6 @@
 package com.farm.xush.project;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
@@ -19,5 +20,19 @@ public class CustomSorForList {
 		});
 
 		return orderedList;
+	}
+	
+	public List<String> listSortByXush(List<String> regulationList,List<String> orderedList){
+		List<String> list = new ArrayList();
+		for(String regulationLisItem:regulationList){
+			for(String orderedListItem:orderedList ){
+				if(orderedListItem.equals(regulationLisItem)){
+					list.add(orderedListItem);
+				}
+			}
+		}
+		
+		return list;
+		
 	}
 }
