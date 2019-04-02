@@ -23,7 +23,7 @@ public class CustomSorForList {
 	}
 	
 	public List<String> listSortByXush(List<String> regulationList,List<String> orderedList){
-		List<String> list = new ArrayList();
+		List<String> list = new ArrayList<String>();
 		for(String regulationLisItem:regulationList){
 			for(String orderedListItem:orderedList ){
 				if(orderedListItem.equals(regulationLisItem)){
